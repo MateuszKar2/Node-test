@@ -24,3 +24,5 @@
 //W skryptach do testowania używamt "npm test" a reszta może zostać
 //Zawsze później można to zmienić
 //Po tym procesie utworzy się nam plik package.json ktory jest glownym plikiem dowodzenia.
+
+const { appendFile } = require("fs");
