@@ -93,7 +93,7 @@ const addToFile = async () => {
   // readDir();
 
   /* Jesli chcemy uzyc jakiejs metody z pliku fileSystem ktory utworzylismy to musimy ja zaimportowac. Niestety tutaj pracujemy na czystym nodejs czyli caly plik jest traktowany jako modul.
-  W systemie modulowym jesli chcemy cos wyeksprotowac korzystamy z metody module.exports={tutaj umieszczamy wszystko co chcemy z modulu wyeksportowac.}
+  W systemie modulowym jesli chcemy cos wyeksprotowac korzystamy z metody module.exports(tutaj umieszczamy wszystko co chcemy z modulu wyeksportowac.)
  jesli chcemy nadac jakis alias danej metodzie dodajemy jako klucz nazwe ktora chcmey miec a wartosc jako nazwa eksportu
  */
 
